@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelato Haus | Cafetería & Gelatería Artesanal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bg-light">
+
+    <header class="container mt-4">
+        <h1 class="display-4">Gelato Haus</h1>
+        <p class="lead"><em>Cafetería, Postres y la Distribución Perfecta del Sabor.</em></p>
+        <nav class="navbar navbar-expand-lg">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#carta">Nuestra Carta</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Especialidades">Especialidades Haus</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Reservas y Pedidos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <section id="inicio" class="mb-4 bg-white p-4 rounded shadow-sm">
+            <h2>Bienvenidos a Gelato Haus</h2>
+            <p>En Gelato Haus fusionamos la precisión de la repostería artesanal de Villa El Salvador. Cada uno de nuestros jugos, frappés y postres está diseñado siguiendo una receta unica y exacta de sabor para garantizar que el punto más alto de tu felicidad esté en cada bocado.</p>
+        </section>
+
+        <section id="carta" class="mb-4">
+            <h2>Nuestra Carta Seleccionada</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle">
+                    <thead class="table-dark">
+                        <tr><th>Categoría</th><th>Producto / Especialidad</th><th>Descripción Conceptual</th><th>Precio (S/.)</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Plato Principal</strong></td><td>Club Ukumaris</td><td>Sándwich triple con palta, tomate y papas.</td><td>S/. 24.00</td></tr>
+                        <tr><td><strong>Plato Principal</strong></td><td>Waffle Pizza</td><td>Masa crocante con salsa de tomate.</td><td>S/. 23.00</td></tr>
+                        <tr><td><strong>Frappés</strong></td><td>Frappé Oreo</td><td>Granizado de café premium y Oreo.</td><td>S/. 15.00</td></tr>
+                        <tr><td><strong>Frappés</strong></td><td>Frappé de la Casa</td><td>Espresso doble, caramelo y toque secreto.</td><td>S/. 16.00</td></tr>
+                        <tr><td><strong>Tortas</strong></td><td>Torta de Chocolate</td><td>Bizcocho húmedo de cacao y fudge.</td><td>S/. 8.00</td></tr>
+                        <tr><td><strong>Tortas</strong></td><td>Torta Tres Leches</td><td>Baño de tres leches y canela.</td><td>S/. 7.00</td></tr>
+                        <tr><td><strong>Jugos</strong></td><td>Jugo Gauss</td><td>Extractor de arándanos y fresas.</td><td>S/. 12.00</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contacto" class="mb-5">
+            <h2>Haz tu Reserva o Pedido Delivery</h2>
+            <form class="border p-4 shadow-sm bg-white rounded">
+                <div class="mb-3">
+                    <label class="form-label">Nombre y Apellido:</label>
+                    <input type="text" class="form-control" placeholder="Ej. Carlos Mendoza">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Teléfono / WhatsApp:</label>
+                    <input type="tel" class="form-control" placeholder="Ej. 987654321">
+                </div>
+                <button type="submit" class="btn btn-primary animate-btn">Enviar Solicitud a la Haus</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 text-muted border-top">
+        <p>&copy; 2026 Gelato Haus - Villa El Salvador. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
